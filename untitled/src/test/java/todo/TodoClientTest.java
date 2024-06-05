@@ -16,5 +16,5 @@ class TodoClientTest {
         List<Todo> todos = client.getTodos();
         assertEquals(200,todos.size());
     }
-    
+
 }
